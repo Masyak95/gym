@@ -2,7 +2,7 @@ import Navbar from "@/scenes/navbar"
 import {useState} from "react";
 
 
-function App() {
+function App()  {
 
     const [selectedPage, setSelectedPage] = useState<string>('home')
 
