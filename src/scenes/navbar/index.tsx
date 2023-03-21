@@ -33,7 +33,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                             <div className={`${flexBetween} w-full`}>
                                 <div className={`${flexBetween} gap-8 text-sm`}>
                                     <Link
-                                        page="Home"
+                                        page="Index"
                                         selectedPage={selectedPage}
                                         setSelectedPage={setSelectedPage}
                                     />
@@ -85,7 +85,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     {/* MENU ITEMS */}
                     <div className="ml-[33%] flex flex-col gap-10 text-2xl">
                         <Link
-                            page="Home"
+                            page="Index"
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}
                         />
